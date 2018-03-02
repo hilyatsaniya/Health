@@ -22,6 +22,12 @@ Class Controller extends CI_Controller {
 		$this->load->view('Header');
 		$this->load->view('Dana');
 	}
+
+	public function Crowd()
+	{
+		$this->load->view('Header');
+		$this->load->view('Crowd');
+	}
 }
 
 ?>
