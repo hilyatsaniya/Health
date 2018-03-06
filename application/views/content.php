@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>css/content.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/content.css">
 </head>
 <body>
 <section class="container">
