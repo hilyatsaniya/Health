@@ -23,10 +23,15 @@ Class Controller extends CI_Controller {
 		$this->load->view('Dana');
 	}
 
-	public function Crowd()
+	public function Tips()
 	{
 		$this->load->view('Header');
-		$this->load->view('Crowd');
+		$this->load->view('Tips');
+	}
+	public function Diagnosa()
+	{
+		$this->load->view('Header');
+		$this->load->view('Diagnosa');
 	}
 }
 
