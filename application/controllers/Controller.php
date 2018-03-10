@@ -17,10 +17,10 @@ Class Controller extends CI_Controller {
 		$this->load->view('content');
 	}
 
-	public function Dana()
+	public function Crowd()
 	{
 		$this->load->view('Header');
-		$this->load->view('Dana');
+		$this->load->view('Crowd');
 	}
 
 	public function Tips()
@@ -32,6 +32,11 @@ Class Controller extends CI_Controller {
 	{
 		$this->load->view('Header');
 		$this->load->view('Diagnosa');
+	}
+	public function Detail()
+	{
+		$this->load->view('Header');
+		$this->load->view('Detail');
 	}
 }
 

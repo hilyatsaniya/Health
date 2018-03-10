@@ -56,7 +56,29 @@
     <h1>Urgensi Bantuan</h1>
 
     <br><br>
-    
+	
+
+<div class="container-fluid">
+  
+  <div class="row">
+    <div class="col-sm-3">
+  		<img src="images/foto4.jpg" width="304" height="236"> 
+  		<center><p>Operasi Bibir Sumbing</p></center>
+    </div>
+    <div class="col-sm-3">
+    	<img src="images/foto4.jpg" width="304" height="236"> 
+  		<center><p>Operasi Katarak</p></center>
+    </div>
+    <div class="col-sm-3">
+    	<img src="images/foto4.jpg" width="304" height="236"> 
+  		<center><p>Operasi Kanker Otak</p></center>
+    </div>
+    <div class="col-sm-3">
+    	<img src="images/foto4.jpg" width="304" height="236"> 
+  		<center><p>Operasi Operasi Kanker Rahim</p></center>
+    </div>
+  </div>
+</div>    
 
 </body>
 </html>

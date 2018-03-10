@@ -22,7 +22,7 @@
   </head>
   <body>
   	<section class="Grid">
-  <div class="tips-1">
+  <div class="tips-1">   
 	<center><h>Tips for</h></center>
 		<p>Ini adalah tips blablablab</p>
 
