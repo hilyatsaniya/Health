@@ -38,6 +38,12 @@ Class Controller extends CI_Controller {
 		$this->load->view('Header');
 		$this->load->view('Detail');
 	}
+
+	public function Dana()
+	{
+		$this->load->view('Header');
+		$this->load->view('Dana');
+	}
 }
 
 ?>
