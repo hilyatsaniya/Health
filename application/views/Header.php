@@ -10,7 +10,6 @@
 <link rel="stylesheet" href="<?php echo base_url(); ?>css/bootstrap.css">
 <link rel="stylesheet" href="<?php echo base_url(); ?>css/bootstrap.min.css">
 <link rel="stylesheet" href="<?php echo base_url(); ?>css/bootstrap-theme.css">
-<link rel="stylesheet" href="<?php echo base_url(); ?>css/bootstrap-theme.min.css">
 <!-- jQuery library -->
 <!--<script src="<?php echo base_url();?>css/jquery.min.js"></script>
 -->
@@ -25,14 +24,13 @@
  <nav class="navbar navbar-inverse">
   <div class="container-fluid">
 
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Healthy Tips</a></li>
-      <li><a href="#">Diagnose</a></li>
-      <li><a href="#">Crowd Funding</a></li>
+    <ul class="nav navbar-nav" >
+      <li><a href="<?php echo base_url(); ?>index.php/Controller/Home">Home</a></li>
+      <li><a href="<?php echo base_url(); ?>index.php/Controller/Tips">Healthy Tips</a></li>
+      <li><a href="<?php echo base_url(); ?>index.php/Controller/Crowd">Crowd Funding</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="<?php echo base_url(); ?>index.php/User/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
   </div>
 	</nav> 

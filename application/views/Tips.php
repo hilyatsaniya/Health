@@ -24,6 +24,7 @@
   	<section class="Grid">
   <div class="tips-1">
 	<center><h>Tips for</h></center>
+  <img src="<?php echo base_url(); ?> images/pict1.png">
 		<p>Ini adalah tips blablablab</p>
 
   </div>
