@@ -15,7 +15,7 @@
   <br><br>
   <form class="form-horizontal" action="/action_page.php">
     <div class="form-group">
-      <label class="control-label col-sm-3" for="email">Judul Bantuan</label>
+      <label class="control-label col-sm-3" for="pwd">Judul Bantuan</label>
       <div class="col-sm-8">
         <input type="text" class="form-control" name="Judul Bantuan"  >
       </div>

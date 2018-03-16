@@ -38,21 +38,19 @@ Class Controller extends CI_Controller {
 		$this->load->view('Header');
 		$this->load->view('Detail');
 	}
-<<<<<<< HEAD
+
 	public function insertcrowd()
 	{
 		$this->load->view('Header');
 		$this->load->view('insertcrowd');
 	}
-||||||| merged common ancestors
-=======
 
 	public function Dana()
 	{
 		$this->load->view('Header');
 		$this->load->view('Dana');
 	}
->>>>>>> f764bc3312cd76e165a3162646bd9b7745a2201b
+
 }
 
 ?>
