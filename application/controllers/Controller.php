@@ -38,6 +38,11 @@ Class Controller extends CI_Controller {
 		$this->load->view('Header');
 		$this->load->view('Detail');
 	}
+	public function insertcrowd()
+	{
+		$this->load->view('Header');
+		$this->load->view('insertcrowd');
+	}
 }
 
 ?>
