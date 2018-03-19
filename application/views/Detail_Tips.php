@@ -24,7 +24,7 @@
   <body>
   	<section class="container">
   <div class="item-1">
-<h>Tips for Your Healthy</h>
+<h><?php echo $details[0]->judul; ?></h>
 <br><br>
 </div>
 
@@ -35,7 +35,7 @@
 -->
 </div>
 </center>
-<center><p>Lorem Ipsum Dolor hahahahahahahahahha </p></center>
+<center><p><?php echo $details[0]->deskripsi; ?></p></center>
 </div>
 
 </section>

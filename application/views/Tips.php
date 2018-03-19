@@ -21,51 +21,23 @@
     <title></title>
   </head>
   <body>
-  	<section class="Grid">
-  <div class="tips-1">
-	<center><h>Tips for</h></center>
-  <img src="<?php echo base_url(); ?> images/pict1.png">
-		<p>Ini adalah tips blablablab</p>
-
-  </div>
-
-  <div class="tips-2">
-	<center><h>Tips for</h></center>
-		<p>Ini adalah tips blablablab</p>
-  </div>
-
-  <div class="tips-3">
-	<center><h>Tips for</h></center>
-		<p>Ini adalah tips blablablab</p>
-  </div>
-
-    <div class="tips-4">
-	<center><h>Tips for</h></center>
-		<p>Ini adalah tips blablablab</p>
-  </div>
-
-    <div class="tips-5">
-	<center><h>Tips for</h></center>
-		<p>Ini adalah tips blablablab</p>
-  </div>
-
-
-    <div class="tips-6">
-	<center><h>Tips for</h></center>
-		<p>Ini adalah tips blablablab</p>
-  </div>
-
-    <div class="tips-7">
-	<center><h>Tips for</h></center>
-		<p>Ini adalah tips blablablab</p>
-  </div>
-
-    <div class="tips-8">
-	<center><h>Tips for</h></center>
-		<p>Ini adalah tips blablablab</p>
-  </div>
-
-</section>
+  <div class="row">
+  <?php foreach ($tips as $tip) {
+  ?>
+    <div class="col-md-3">
+      
+    <!-- <section class="Grid"> -->
+       <center>
+       <div class="tips-1">
+	     <center><h>Tips for</h></center>
+       <img src="<?php echo base_url(); ?> images/pict1.png">
+		   <p><?php echo $tip->judul; ?></p>
+    </div>
+  </center>
+  <!-- </section> -->
+    </div>  
+  <?php  } ?>
+    </div>  
 
 <div class="pagin">
 <a href="#" class="previous"> Previous</a>

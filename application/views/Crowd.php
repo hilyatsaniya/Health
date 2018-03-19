@@ -61,22 +61,15 @@
 <div class="container-fluid">
   
   <div class="row">
+    <?php foreach ($crowd as $crowds) {
+    ?>  
     <div class="col-sm-3">
   		<img src="images/foto4.jpg" width="304" height="236"> 
-  		<center><p>Operasi Bibir Sumbing</p></center>
+  		<center><p><?php echo $crowds->judul; ?></p></center>
+      <center><p><?php echo $crowds->username; ?></p></center>
+      <center><p><?php echo $crowds->dana; ?></p></center>
     </div>
-    <div class="col-sm-3">
-    	<img src="images/foto4.jpg" width="304" height="236"> 
-  		<center><p>Operasi Katarak</p></center>
-    </div>
-    <div class="col-sm-3">
-    	<img src="images/foto4.jpg" width="304" height="236"> 
-  		<center><p>Operasi Kanker Otak</p></center>
-    </div>
-    <div class="col-sm-3">
-    	<img src="images/foto4.jpg" width="304" height="236"> 
-  		<center><p>Operasi Operasi Kanker Rahim</p></center>
-    </div>
+    <?php } ?>
   </div>
 </div>    
 

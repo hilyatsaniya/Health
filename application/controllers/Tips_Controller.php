@@ -20,10 +20,12 @@ class Tips_Controller extends CI_Controller
 	public function show_tips()
 	{
 		$data['tips'] = $this->Tips_Model->get_all_tips();
-		echo "<pre>";
-		var_dump($data);
-		die();
-		echo "</pre>";
+		$this->load->view('Header');
+		$this->load->view('Tips',$data);
+		// echo "<pre>";
+		// var_dump($data);
+		// die();
+		// echo "</pre>";
 	}
 
 	public function get_tip($id)
@@ -33,11 +35,12 @@ class Tips_Controller extends CI_Controller
 		} else {
 			$tip = array('details' => $this->Tips_Model->get_one_tips($id) , );
 		}
-		echo "<pre>";
-		var_dump($tip);
-		die();
-		echo "</pre>";
-		
+		// echo "<pre>";
+		// var_dump($tip);
+		// die();
+		// echo "</pre>";
+		$this->load->view('Header');
+		$this->load->view('Detail_Tips', $tip);
 	}
 }
 

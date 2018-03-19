@@ -17,22 +17,25 @@
     <div class="col-sm-3" ></div>
     <div class="col-sm-3" >
       <img src="images/foto4.jpg" width="304" height="236"> 
-      <center><p>Operasi Bibir Sumbing</p></center></div>
+      <center><p><?php echo $details[0]->judul; ?></p></center>
+      <center><p><?php echo $details[0]->username; ?></p></center>
+    </div>
+
     <div class="col-sm-3" ">
       <h2>DESKRIPSI</h2>
-      <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem IpsumLoremLorem IpsumLorem IpsumLorem IpsumLoremLorem Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsumv Lorem IpsumLorem IpsumLoremLorem Lorem IpsumLorem IpsumLoremLorem v Lorem IpsumLorem Ipsumv Lorem IpsumLorem IpsumLoremLorem vLorem IpsumLoremLorem vLorem IpsumLoremLorem v Lorem IpsumLorem IpsumLoremLorem Lorem IpsumLorem Ipsumv Lorem IpsumLorem IpsumLoremLorem Lorem IpsumLorem IpsumLoremLorem v v v Lorem Ipsumv v Lorem IpsumLorem IpsumLoremLorem Lorem IpsumLorem IpsumLorem Ipsumv v Lorem IpsumLorem IpsumLorem IpsumLorem v Lorem IpsumLorem IpsumLorem </p>
+      <p><?php echo $details[0]->deskripsi; ?> </p>
       <br><br>
 
     </div>
     <div class="col-sm-3" ">
       <label class="control-label col-sm-6" for="pwd">Urgensi</label>
       <div class="col-sm-6">
-       <label class="control-label col-sm-6" for="pwd">3</label>
+       <label class="control-label col-sm-6" for="pwd"><?php echo $details[0]->urgensi; ?></label>
       </div>
       <br><br><br>
       <label class="control-label col-sm-6" for="pwd">Dana Dibutuhkan</label>
       <div class="col-sm-6">
-       <label class="control-label col-sm-6" for="epwd">3</label>
+       <label class="control-label col-sm-6" for="epwd"><?php echo $details[0]->dana; ?></label>
       </div>
       <br><br><br>
       <label class="control-label col-sm-6" for="pwd">Dana Terkumpul</label>

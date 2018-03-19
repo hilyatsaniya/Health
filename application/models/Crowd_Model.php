@@ -27,6 +27,7 @@ class Crowd_Model extends CI_Model {
 		$this->db->select('*');
 		$this->db->from('crowdfunding');
 		$this->db->join('user', 'crowdfunding.user = user.id');
+		$this->db->order_by('urgensi', 'desc');
 		$query = $this->db->get();
 		// var_dump($query);
 		// die();

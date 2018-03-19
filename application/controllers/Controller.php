@@ -45,10 +45,10 @@ Class Controller extends CI_Controller {
 		$this->load->view('insertcrowd');
 	}
 
-	public function Dana()
+	public function detail_tips()
 	{
 		$this->load->view('Header');
-		$this->load->view('Dana');
+		$this->load->view('Detail_Tips');
 	}
 
 }
